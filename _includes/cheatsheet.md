@@ -21,5 +21,8 @@ p
 patchelf --remove-needed libhello.so.1 hello  
 patchelf --add-needed ./libhello.so.1 hello
 
-## Linux show all used port
+## Linux lists all open files
 sudo lsof -i
+
+## Linux show all used tcp and udp port
+netstat -tunlp
