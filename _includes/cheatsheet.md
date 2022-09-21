@@ -26,3 +26,7 @@ sudo lsof -i
 
 ## Linux show all used tcp and udp port
 netstat -tunlp
+
+
+## Install specifical gem package
+sudo gem install rack -v "2.2.4"
