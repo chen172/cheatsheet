@@ -37,3 +37,9 @@ netstat -tunlp
 
 ## Install specifical gem package
 sudo gem install rack -v "2.2.4"
+
+## vi append just after the current cursor position
+a
+
+## Linux edit hosts file
+sudo vi /etc/hosts
