@@ -1,3 +1,10 @@
+# Fast download in China
+## python pip
+pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com
+
+## Go download
+go env -w GOPROXY=https://goproxy.cn
+
 # Linux
 ## Change suffix
 rename 's/\.csv/\.txt/' *
