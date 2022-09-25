@@ -29,6 +29,9 @@ patchelf --remove-needed libhello.so.1 hello
 patchelf --add-needed ./libhello.so.1 hello
 
 ## Linux lists all open files
+lsof
+
+## Show Files Accessed by Network Connections
 sudo lsof -i
 
 ## Linux show all used tcp and udp port
