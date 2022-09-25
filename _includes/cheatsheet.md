@@ -35,7 +35,7 @@ lsof
 sudo lsof -i
 
 ## Linux show all used tcp and udp port
-netstat -tunlp
+sudo netstat -tunlp
 
 
 ## Install specifical gem package
