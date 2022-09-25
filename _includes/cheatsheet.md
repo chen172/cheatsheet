@@ -5,6 +5,8 @@ pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-ho
 ## Go download
 go env -w GOPROXY=https://goproxy.cn
 
+*Note: If Makefile set GOPROXY by ```export GOPROXY ?= https://proxy.golang.org```, Be sure comment it.*
+
 # 2. Useful command 
 ## Change suffix
 rename 's/\.csv/\.txt/' *
