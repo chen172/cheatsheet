@@ -51,7 +51,9 @@ sudo vi /etc/hosts
 
 ## clone a specific directory from Github
 1. Replace ```tree/master``` with ```trunk```, so download https://github.com/torvalds/linux/tree/master/net/mac80211 would be:
+
 ```svn checkout https://github.com/torvalds/linux/trunk/net/mac80211```
 
 2. Replace ```tree/v5.13``` with ```tags/v5.13```, so download https://github.com/torvalds/linux/tree/v5.13/net/mac80211 would be:
+
 ```svn checkout https://github.com/torvalds/linux/tags/v5.13/net/mac80211```
