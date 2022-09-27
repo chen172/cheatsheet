@@ -48,3 +48,8 @@ a
 
 ## Linux edit hosts file
 sudo vi /etc/hosts
+
+## clone a specific directory from Github
+Replace ```tree/master``` with ```trunk```, so download https://github.com/torvalds/linux/tree/master/net/mac80211 would be:
+
+```svn checkout https://github.com/torvalds/linux/trunk/net/mac80211```
