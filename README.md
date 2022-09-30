@@ -1,3 +1,3 @@
 ## My cheatsheet
-* https://github.com/chen172/cheatsheet/blob/master/_includes/cheatsheet.md#1-fast-download-in-china
-* https://github.com/chen172/one-line-command
+* [fast-download-in-china](https://github.com/chen172/cheatsheet/blob/master/_includes/cheatsheet.md#1-fast-download-in-china)
+* [useful-command](https://github.com/chen172/cheatsheet/blob/master/_includes/cheatsheet.md#2-useful-command)
