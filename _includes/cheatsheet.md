@@ -62,3 +62,6 @@ svn checkout https://github.com/torvalds/linux/tags/v5.13/net/mac80211
 
 ## gcc link openssl
 gcc XXX.c -lcrypto -lssl
+
+## gcc not show warning
+gcc XXX.c -w
