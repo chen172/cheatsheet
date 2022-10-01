@@ -59,3 +59,6 @@ svn checkout https://github.com/torvalds/linux/trunk/net/mac80211
 ```
 svn checkout https://github.com/torvalds/linux/tags/v5.13/net/mac80211
 ```
+
+## gcc link openssl
+gcc XXX.c -lcrypto -lssl
