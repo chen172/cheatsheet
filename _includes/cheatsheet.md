@@ -71,3 +71,6 @@ str = URI.encode_www_form_component(str) (https://rubyapi.org/3.1/o/uri#method-c
 
 ## Ruby 3 Encoding
 string.force_encoding(Encoding::UTF_8) (https://rubyapi.org/3.1/o/encoding)
+
+## C language convert integer to string
+sprintf(string, "%04d", integer);
