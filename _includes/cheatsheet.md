@@ -65,3 +65,9 @@ gcc XXX.c -lcrypto -lssl
 
 ## gcc not show warning
 gcc XXX.c -w
+
+## Ruby 3 encode url
+str = URI.encode_www_form_component(str) (https://rubyapi.org/3.1/o/uri#method-c-encode_www_form_component)
+
+## Ruby 3 Encoding
+string.force_encoding(Encoding::UTF_8) (https://rubyapi.org/3.1/o/encoding)
