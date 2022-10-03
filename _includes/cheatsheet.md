@@ -74,3 +74,6 @@ string.force_encoding(Encoding::UTF_8) (https://rubyapi.org/3.1/o/encoding)
 
 ## C language convert integer to string
 sprintf(string, "%04d", integer);
+
+## Linux not delete all the .txt files
+rm !(*.txtx)
