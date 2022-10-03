@@ -77,3 +77,6 @@ sprintf(string, "%04d", integer);
 
 ## Linux not delete all the .txt files
 rm !(*.txt)
+
+## windows powershell processing all the file in a directory
+foreach($file in (Get-ChildItem .\dict\).Fullname) {echo $file}
