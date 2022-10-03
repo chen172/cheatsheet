@@ -76,4 +76,4 @@ string.force_encoding(Encoding::UTF_8) (https://rubyapi.org/3.1/o/encoding)
 sprintf(string, "%04d", integer);
 
 ## Linux not delete all the .txt files
-rm !(*.txtx)
+rm !(*.txt)
