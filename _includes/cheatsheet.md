@@ -79,4 +79,4 @@ sprintf(string, "%04d", integer);
 rm !(*.txt)
 
 ## windows powershell processing all the file in a directory
-foreach($file in (Get-ChildItem .\dict\).Fullname) {echo $file}
+foreach($file in (Get-ChildItem .\subdirectory\).Fullname) {echo $file}
