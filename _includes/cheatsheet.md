@@ -80,3 +80,9 @@ rm !(*.txt)
 
 ## windows powershell processing all the file in a directory
 foreach($file in (Get-ChildItem .\subdirectory\).Fullname) {echo $file}
+
+## windows find exe file link library
+dumpbin /dependents nm.exe
+
+## windows find dll library info
+dumpbin /headers nm.dll
