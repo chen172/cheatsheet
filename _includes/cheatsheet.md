@@ -1,6 +1,7 @@
 # 1. Fast download in China
 ## python pip
-pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com
+* pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com
+* pip3 install numpy -i https://pypi.douban.com/simple
 
 ## Go download
 go env -w GOPROXY=https://goproxy.cn
