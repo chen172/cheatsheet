@@ -97,3 +97,6 @@ dumpbin /dependents nm.exe
 
 ## windows find dll library info
 dumpbin /headers nm.dll
+
+## Linux check OpenCV version
+pkg-config opencv4 --modversion
