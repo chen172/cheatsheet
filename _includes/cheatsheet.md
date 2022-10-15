@@ -100,3 +100,6 @@ dumpbin /headers nm.dll
 
 ## Linux check OpenCV version
 pkg-config opencv4 --modversion
+
+## Path With Spaces in PowerShell
+Use Single Quotes ' ' to Deal With Spaces in the Path in PowerShell
