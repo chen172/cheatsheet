@@ -103,3 +103,7 @@ pkg-config opencv4 --modversion
 
 ## Path With Spaces in PowerShell
 Use Single Quotes ' ' to Deal With Spaces in the Path in PowerShell
+
+## Ubuntu install specific version package
+1. apt list --all-versions package_name
+2. sudo apt install package_name=package_version
