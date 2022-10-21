@@ -40,8 +40,10 @@ yy
 p
 
 ## add and remove library from executable file
+```
 patchelf --remove-needed libhello.so.1 hello  
 patchelf --add-needed ./libhello.so.1 hello
+```
 
 ## Linux lists all open files
 lsof
