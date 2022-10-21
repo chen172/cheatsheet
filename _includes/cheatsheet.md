@@ -1,7 +1,9 @@
 # 1. Fast download in China
 ## python pip
-* pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com
-* pip3 install numpy -i https://pypi.douban.com/simple
+```
+pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com
+pip3 install numpy -i https://pypi.douban.com/simple
+```
 
 ## Go download
 go env -w GOPROXY=https://goproxy.cn
@@ -99,11 +101,15 @@ dumpbin /dependents nm.exe
 dumpbin /headers nm.dll
 
 ## Linux check OpenCV version
+```
 pkg-config opencv4 --modversion
+```
 
 ## Path With Spaces in PowerShell
 Use Single Quotes ' ' to Deal With Spaces in the Path in PowerShell
 
 ## Ubuntu install specific version package
-1. apt list --all-versions package_name
-2. sudo apt install package_name=package_version
+```
+apt list --all-versions package_name
+sudo apt install package_name=package_version
+```
