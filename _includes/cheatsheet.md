@@ -20,6 +20,13 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/m
 conda config --set show_channel_urls yes
 ```
 
+## npm download
+```
+npm config get registry
+npm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npmjs.org (Note: used for set back)
+```
+
 # 2. Useful command 
 ## Change suffix
 rename 's/\.csv/\.txt/' *
