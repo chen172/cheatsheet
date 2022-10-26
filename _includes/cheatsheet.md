@@ -122,3 +122,8 @@ Use Single Quotes ' ' to Deal With Spaces in the Path in PowerShell
 apt list --all-versions package_name
 sudo apt install package_name=package_version
 ```
+
+## Run PowerShell script
+1. set-ExecutionPolicy RemoteSigned
+2. powershell.exe sh.ps1
+3. https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
