@@ -127,3 +127,9 @@ sudo apt install package_name=package_version
 1. set-ExecutionPolicy RemoteSigned
 2. powershell.exe sh.ps1
 3. https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
+
+# Useful link
+## music link
+1. https://music.163.com/#/playlist?id=2945028696
+2. https://music.163.com/#/playlist?id=2748492595
+3. https://music.163.com/#/playlist?id=7581120144
