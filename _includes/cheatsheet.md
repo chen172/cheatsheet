@@ -133,3 +133,7 @@ sudo apt install package_name=package_version
 1. https://music.163.com/#/playlist?id=2945028696
 2. https://music.163.com/#/playlist?id=2748492595
 3. https://music.163.com/#/playlist?id=7581120144
+
+## English dictionary link
+1. https://www.collinsdictionary.com/dictionary/english/refuge
+2. https://dict.youdao.com/result?word=umbrage&lang=en
