@@ -137,3 +137,8 @@ sudo apt install package_name=package_version
 ## English dictionary link
 1. https://www.collinsdictionary.com/dictionary/english/refuge
 2. https://dict.youdao.com/result?word=umbrage&lang=en
+
+## neural network link
+1. https://github.com/glouw/tinn
+2. https://hackaday.com/2018/04/08/tiny-neural-network-library-in-200-lines-of-code/
+3. http://neuralnetworksanddeeplearning.com/
