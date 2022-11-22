@@ -27,6 +27,9 @@ npm config set registry https://registry.npm.taobao.org
 npm config set registry https://registry.npmjs.org (Note: used for set back)
 ```
 
+## download video
+https://bilibili.iiilab.com/
+
 # 2. Useful command 
 ## Change suffix
 rename 's/\.csv/\.txt/' *
