@@ -131,6 +131,9 @@ sudo apt install package_name=package_version
 2. powershell.exe sh.ps1
 3. https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
 
+## windows edit sql .dat file
+https://sqliteexpert.com/download.html
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
