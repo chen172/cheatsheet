@@ -148,3 +148,6 @@ https://sqliteexpert.com/download.html
 1. https://github.com/glouw/tinn
 2. https://hackaday.com/2018/04/08/tiny-neural-network-library-in-200-lines-of-code/
 3. http://neuralnetworksanddeeplearning.com/
+
+## free mail
+1. https://www.guerrillamail.com/
