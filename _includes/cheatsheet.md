@@ -134,6 +134,10 @@ sudo apt install package_name=package_version
 ## windows edit sql .dat file
 https://sqliteexpert.com/download.html
 
+## crack rar file (6 digit number)
+1. .\rar2john.exe file.rar
+2. .\hashcat.exe -a 3 -m 13000 --force '$rar5$16$bebb59a9f3408812c93cd3c9d074278b$15$3d7fdb029cd967b7342f13bdcfa94938$8$f1cc239aa078d2d2' ?d?d?d?d?d?d
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
