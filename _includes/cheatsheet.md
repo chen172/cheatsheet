@@ -155,3 +155,6 @@ https://sqliteexpert.com/download.html
 
 ## free mail
 1. https://www.guerrillamail.com/
+
+## File sharing and storage platform 
+1. https://gofile.io/
