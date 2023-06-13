@@ -138,6 +138,12 @@ https://sqliteexpert.com/download.html
 1. .\rar2john.exe file.rar
 2. .\hashcat.exe -a 3 -m 13000 --force '$rar5$16$bebb59a9f3408812c93cd3c9d074278b$15$3d7fdb029cd967b7342f13bdcfa94938$8$f1cc239aa078d2d2' ?d?d?d?d?d?d
 
+## Linux Create Files Of A Certain Size
+1. truncate -s 5M ostechnix.txt (data format)
+2. yes > file.txt; truncate -s 1M file.txt (ASCII format)
+3. dd if=/dev/urandom of=ostechnix.txt bs=5MB count=1 (random data)
+4. https://ostechnix.com/create-files-certain-size-linux/
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
