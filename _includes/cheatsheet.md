@@ -164,3 +164,6 @@ https://sqliteexpert.com/download.html
 
 ## File sharing and storage platform 
 1. https://gofile.io/
+
+## build, test and debug regex
+1. https://regex101.com/
