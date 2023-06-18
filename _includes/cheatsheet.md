@@ -144,6 +144,11 @@ https://sqliteexpert.com/download.html
 3. dd if=/dev/urandom of=ostechnix.txt bs=5MB count=1 (random data)
 4. https://ostechnix.com/create-files-certain-size-linux/
 
+## Linux display binary file
+```
+hd file
+```
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
