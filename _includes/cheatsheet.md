@@ -149,6 +149,9 @@ https://sqliteexpert.com/download.html
 hd file
 ```
 
+## Linux add content to file header
+sed -i '1s/^/This is my header\n/' filename
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
