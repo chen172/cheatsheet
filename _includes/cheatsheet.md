@@ -152,6 +152,11 @@ hd file
 ## Linux add content to file header
 sed -i '1s/^/This is my header\n/' filename
 
+## Windows: Equivalent to linux time command
+```
+Measure-Command {start-process yourCommand.exe -argumentlist "argument1 argument2" -wait}
+```
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
