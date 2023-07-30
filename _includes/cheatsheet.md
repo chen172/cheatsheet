@@ -27,6 +27,9 @@ npm config set registry https://registry.npm.taobao.org
 npm config set registry https://registry.npmjs.org (Note: used for set back)
 ```
 
+## git bash download
+git config --global https.proxy "https://127.0.0.1:10808"
+
 ## download video
 https://bilibili.iiilab.com/
 
