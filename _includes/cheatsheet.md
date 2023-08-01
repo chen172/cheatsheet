@@ -160,6 +160,18 @@ sed -i '1s/^/This is my header\n/' filename
 Measure-Command {start-process yourCommand.exe -argumentlist "argument1 argument2" -wait}
 ```
 
+## git clone a tag to repo
+```
+git clone -b <tagname> --single-branch <repository> .
+git remote set-url origin [new-url]
+git branch <new-branch>
+git push origin heads/<new-branch>
+```
+ref:
+1. https://www.techiedelight.com/clone-specific-tag-with-git/
+2. https://komodor.com/learn/how-to-fix-fatal-remote-origin-already-exists-error/
+3. https://www.git-tower.com/learn/git/faq/create-branch
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
