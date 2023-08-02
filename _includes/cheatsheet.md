@@ -172,6 +172,11 @@ ref:
 2. https://komodor.com/learn/how-to-fix-fatal-remote-origin-already-exists-error/
 3. https://www.git-tower.com/learn/git/faq/create-branch
 
+## Windows set env only affects current shell
+```
+set PATH=%PATH%;C:\your\path\here\
+```
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
