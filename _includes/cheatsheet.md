@@ -117,6 +117,14 @@ dumpbin /dependents nm.exe
 ## windows find dll library info
 dumpbin /headers nm.dll
 
+## windows exports symbol from library
+1. static lib
+`DUMPBIN /SYMBOLS static.lib`
+2. shared dll or import lib
+`DUMPBIN /EXPORTS shared.dll/import.lib`
+
+Note: If not display symbols, the lib may not export symbols when creating.
+
 ## Linux check OpenCV version
 ```
 pkg-config opencv4 --modversion
