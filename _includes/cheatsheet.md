@@ -198,6 +198,31 @@ int i = std::stoi("45");
 ref:
 1. https://stackoverflow.com/questions/5590381/how-to-convert-int-to-string-in-c
 
+## write lines to a file in C++
+```C++
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main (){
+    ofstream myfile("CSC2134.txt");
+
+    if(myfile.is_open())
+    {
+        string str;
+        do{
+            getline(cin, str);
+            myfile<<str<< endl;
+        }while(str!="");
+        myfile.close();
+    }
+    else cerr<<"Unable to open file";
+
+    return 0;
+}
+```
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
