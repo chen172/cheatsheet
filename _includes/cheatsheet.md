@@ -187,6 +187,17 @@ ref:
 set PATH=%PATH%;C:\your\path\here\
 ```
 
+# Useful code
+## convert from `int` to the `string` in C++
+```C++
+#include <string> 
+
+std::string s = std::to_string(42);
+int i = std::stoi("45");
+```
+ref:
+1. https://stackoverflow.com/questions/5590381/how-to-convert-int-to-string-in-c
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
