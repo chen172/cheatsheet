@@ -223,6 +223,56 @@ int main (){
 }
 ```
 
+## windows call dll in C++
+```C++
+#include <windows.h>
+#include <iostream>
+
+/* Define a function pointer for our imported
+ * function.
+ * This reads as "introduce the new type f_funci as the type: 
+ *                pointer to a function returning an int and 
+ *                taking no arguments.
+ *
+ * Make sure to use matching calling convention (__cdecl, __stdcall, ...)
+ * with the exported function. __stdcall is the convention used by the WinAPI
+ */
+typedef int (__stdcall *f_funci)();
+
+int main()
+{
+    HINSTANCE hGetProcIDDLL = LoadLibrary("path/to/dll");
+
+    if (!hGetProcIDDLL) {
+        std::cout << "could not load the dynamic library" << std::endl;
+        return EXIT_FAILURE;
+    }
+
+    // resolve function address here
+    f_funci funci = (f_funci)GetProcAddress(hGetProcIDDLL, "setup");
+    if (!funci) {
+        std::cout << "could not locate the function" << std::endl;
+        return EXIT_FAILURE;
+    }
+        
+    std::cout << "funci() returned " << funci() << std::endl;
+    FreeLibrary(hGetProcIDDLL);
+    return 0;
+}
+```
+
+## call python in C++
+```C++
+#include "Python.h"
+    // c++ call python example
+    Py_SetPythonHome(L"path/to/python3_x64-windows/tools/python3");
+    Py_Initialize();
+    PyRun_SimpleString("import os");
+    PyRun_SimpleString("print ('Python example')");
+    // call this function will destory all python context
+    Py_Finalize();
+```
+
 # Useful link
 ## music link
 1. https://music.163.com/#/playlist?id=2945028696
