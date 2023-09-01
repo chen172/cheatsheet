@@ -1,4 +1,4 @@
-# 1. Fast download in China
+# 1. Proxy setting
 ## python pip
 ```
 pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com
