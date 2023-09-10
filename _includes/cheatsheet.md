@@ -1,4 +1,8 @@
 # 1. Proxy setting
+## Windows
+SET HTTP_PROXY=http://user:password@127.0.0.1:10809
+SET HTTPS_PROXY=%HTTP_PROXY%
+
 ## python pip
 ```
 pip install -r ./requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com
