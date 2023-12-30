@@ -191,6 +191,14 @@ ref:
 set PATH=%PATH%;C:\your\path\here\
 ```
 
+## Check Disk Space in Linux
+```
+df -h
+```
+
+ref:
+https://phoenixnap.com/kb/linux-check-disk-space#:~:text=%EE%80%80Check%EE%80%81%20%EE%80%80Linux%EE%80%81%20Disk%20Space%20Using%20df%20Command.%20You,By%20default%2C%20df%20displays%20values%20in%201-kilobyte%20blocks.
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```C++
