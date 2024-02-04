@@ -38,7 +38,7 @@ git config --global https.proxy "https://127.0.0.1:10808"
 ```
 
 ## download video
-https://bilibili.iiilab.com/
+<https://bilibili.iiilab.com/>
 
 # 2. Useful command 
 ## Change suffix
@@ -102,10 +102,16 @@ gcc XXX.c -lcrypto -lssl
 gcc XXX.c -w
 
 ## Ruby 3 encode url
-str = URI.encode_www_form_component(str) (https://rubyapi.org/3.1/o/uri#method-c-encode_www_form_component)
+str = URI.encode_www_form_component(str)
+
+ref:
+1. <https://rubyapi.org/3.1/o/uri#method-c-encode_www_form_component>
 
 ## Ruby 3 Encoding
-string.force_encoding(Encoding::UTF_8) (https://rubyapi.org/3.1/o/encoding)
+string.force_encoding(Encoding::UTF_8)
+
+ref:
+1. <https://rubyapi.org/3.1/o/encoding>
 
 ## C language convert integer to string
 sprintf(string, "%04d", integer);
@@ -147,10 +153,12 @@ sudo apt install package_name=package_version
 ## Run PowerShell script
 1. set-ExecutionPolicy RemoteSigned
 2. powershell.exe sh.ps1
-3. https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
+
+ref:
+1. <https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2>
 
 ## windows edit sql .dat file
-https://sqliteexpert.com/download.html
+<https://sqliteexpert.com/download.html>
 
 ## crack rar file (6 digit number)
 1. .\rar2john.exe file.rar
@@ -160,7 +168,9 @@ https://sqliteexpert.com/download.html
 1. truncate -s 5M ostechnix.txt (data format)
 2. yes > file.txt; truncate -s 1M file.txt (ASCII format)
 3. dd if=/dev/urandom of=ostechnix.txt bs=5MB count=1 (random data)
-4. https://ostechnix.com/create-files-certain-size-linux/
+
+ref:
+1. <https://ostechnix.com/create-files-certain-size-linux/>
 
 ## Linux display binary file
 ```
@@ -183,9 +193,9 @@ git branch <new-branch>
 git push origin heads/<new-branch>
 ```
 ref:
-1. https://www.techiedelight.com/clone-specific-tag-with-git/
-2. https://komodor.com/learn/how-to-fix-fatal-remote-origin-already-exists-error/
-3. https://www.git-tower.com/learn/git/faq/create-branch
+1. <https://www.techiedelight.com/clone-specific-tag-with-git/>
+2. <https://komodor.com/learn/how-to-fix-fatal-remote-origin-already-exists-error/>
+3. <https://www.git-tower.com/learn/git/faq/create-branch>
 
 ## Windows set env only affects current shell
 ```
@@ -198,7 +208,7 @@ echo $Env:PATH
 ```
 
 ref:
-1. https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp
+1. <https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp>
 
 ## Check Disk Space in Linux
 ```
@@ -206,7 +216,7 @@ df -h
 ```
 
 ref:
-1. https://phoenixnap.com/kb/linux-check-disk-space
+1. <https://phoenixnap.com/kb/linux-check-disk-space>
 
 # Useful code
 ## convert from `int` to the `string` in C++
@@ -217,7 +227,7 @@ std::string s = std::to_string(42);
 int i = std::stoi("45");
 ```
 ref:
-1. https://stackoverflow.com/questions/5590381/how-to-convert-int-to-string-in-c
+1. <https://stackoverflow.com/questions/5590381/how-to-convert-int-to-string-in-c>
 
 ## write lines to a file in C++
 ```c++
@@ -296,24 +306,24 @@ int main()
 
 # Useful link
 ## music link
-1. https://music.163.com/#/playlist?id=2945028696
-2. https://music.163.com/#/playlist?id=2748492595
-3. https://music.163.com/#/playlist?id=7581120144
+1. <https://music.163.com/#/playlist?id=2945028696>
+2. <https://music.163.com/#/playlist?id=2748492595>
+3. <https://music.163.com/#/playlist?id=7581120144>
 
 ## English dictionary link
-1. https://www.collinsdictionary.com/dictionary/english/refuge
-2. https://dict.youdao.com/result?word=umbrage&lang=en
+1. <https://www.collinsdictionary.com/dictionary/english/refuge>
+2. <https://dict.youdao.com/result?word=umbrage&lang=en>
 
 ## neural network link
-1. https://github.com/glouw/tinn
-2. https://hackaday.com/2018/04/08/tiny-neural-network-library-in-200-lines-of-code/
-3. http://neuralnetworksanddeeplearning.com/
+1. <https://github.com/glouw/tinn>
+2. <https://hackaday.com/2018/04/08/tiny-neural-network-library-in-200-lines-of-code/>
+3. <http://neuralnetworksanddeeplearning.com/>
 
 ## free mail
-1. https://www.guerrillamail.com/
+1. <https://www.guerrillamail.com/>
 
 ## File sharing and storage platform 
-1. https://gofile.io/
+1. <https://gofile.io/>
 
 ## build, test and debug regex
-1. https://regex101.com/
+1. <https://regex101.com/>
