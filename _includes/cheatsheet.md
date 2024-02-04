@@ -1,7 +1,8 @@
 # 1. Proxy setting
 ## Windows
-SET HTTP_PROXY=http://user:password@127.0.0.1:10809
-SET HTTPS_PROXY=%HTTP_PROXY%
+```
+set HTTP_PROXY=http://user:password@127.0.0.1:10809 or set HTTP_PROXY=http://127.0.0.1:10809
+```
 
 ## python pip
 ```
@@ -190,6 +191,14 @@ ref:
 ```
 set PATH=%PATH%;C:\your\path\here\
 ```
+
+## Windows Powershell show env
+```
+echo $Env:PATH
+```
+
+ref:
+1. https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp
 
 ## Check Disk Space in Linux
 ```
