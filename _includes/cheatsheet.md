@@ -218,6 +218,22 @@ df -h
 ref:
 1. <https://phoenixnap.com/kb/linux-check-disk-space>
 
+## Linux set time
+```
+sudo timedatectl set-time "YYYY-MM-DD HH:MM:SS"
+```
+
+## Linux enable ssh service
+```
+sudo systemctl enable ssh.service
+sudo systemctl is-enabled ssh.service
+```
+
+## Linux show battery info
+```
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+```
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
