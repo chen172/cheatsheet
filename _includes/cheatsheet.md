@@ -234,6 +234,19 @@ sudo systemctl is-enabled ssh.service
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
 ```
 
+## Linux allow port through firewall
+```
+1. sudo apt-get install ufw
+2. sudo ufw allow 22
+3. sudo ufw enable
+4. sudo ufw status
+```
+
+## Windows create directory link
+```
+mklink /j linkDir TargetDir
+```
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
