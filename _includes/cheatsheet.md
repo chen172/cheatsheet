@@ -50,6 +50,14 @@ dd
 ## Linux convert all the .md file to .html file
 for i in *.md ; do echo "$i" && pandoc -s $i -o $i.html ; done
 
+## Linux rename multiple files
+for example: rename `aro_tty-mIF-45875564pmo_opt` to `aro_tty-mImpFRA-45875564pmo_opt`
+
+`for file in aro_tty-mIF-*_opt;do mv -i "${file}" "${file/-mIF-/-mImpFRA-}";done`
+
+ref:
+1. https://unix.stackexchange.com/questions/102647/how-to-rename-multiple-files-in-single-command-or-script-in-unix
+
 ## Nmap scan port
 nmap 192.168.1.1  -p1-65535 
 
