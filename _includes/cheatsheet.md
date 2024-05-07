@@ -250,6 +250,11 @@ upower -i /org/freedesktop/UPower/devices/battery_BAT0
 4. sudo ufw status
 ```
 
+## Linux get all files size of directory
+```
+du -sh /path/to/directory
+```
+
 ## Windows create directory link
 ```
 mklink /j linkDir TargetDir
