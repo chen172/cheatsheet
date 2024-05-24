@@ -260,6 +260,12 @@ du -sh /path/to/directory
 mklink /j linkDir TargetDir
 ```
 
+## VSCode multiline selection
+`shift + alt`
+
+ref:
+1. https://superuser.com/questions/1503953/vscode-multiline-select-how-to-delete-without-removing-blank-lines
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
