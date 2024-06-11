@@ -352,6 +352,18 @@ int main()
     Py_Finalize();
 ```
 
+## Predefined C/C++ macros for cross-platform development
+```c
+#if defined(__linux__)
+#include <unistd.h>
+#elif _WIN32
+#include <windows.h>
+#endif
+```
+
+ref:
+1. https://dev.to/tenry/predefined-c-c-macros-43id
+
 # Useful link
 ## music link
 1. <https://music.163.com/#/playlist?id=2945028696>
