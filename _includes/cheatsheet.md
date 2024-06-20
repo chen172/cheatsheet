@@ -266,6 +266,26 @@ mklink /j linkDir TargetDir
 ref:
 1. https://superuser.com/questions/1503953/vscode-multiline-select-how-to-delete-without-removing-blank-lines
 
+## Windows restore ESP partition to EFI
+```
+diskpart
+
+list disk
+select disk 0
+list partition
+select partition 1
+set id=C12A7328-F81F-11D2-BA4B-00A0C93EC93B
+```
+
+## Linux sort all directories and files based on their size
+`du -sh -- *  | sort -rh`
+
+ref:
+1. https://unix.stackexchange.com/questions/106330/sort-all-directories-based-on-their-size
+
+## Windows Linux sort all directories and files based on their size
+<https://windirstat.net/>
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
