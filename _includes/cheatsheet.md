@@ -286,6 +286,45 @@ ref:
 ## Windows Linux sort all directories and files based on their size
 <https://windirstat.net/>
 
+## Package Management for MINGW64
+### Start MING64
+open git bash as admin
+
+### Finding a package
+`pacman -Ss <name or part of the name of the package>`
+
+### Installing a package
+`pacman -S <name of the package>`
+
+### Uninstalling a package
+`pacman -R <name of the package>`
+
+### Update to fix problem(invalid or corrupted package)
+`pacman -Syu`
+
+ref:
+1. https://www.msys2.org/docs/package-management/
+
+## MINGW64 use cmake
+### install cmake
+`pacman -S cmake`
+
+### check generator
+`cmake -E capabilities`
+
+### install generator
+`pacman -S ninja`
+
+### build
+```
+mkdir build && cd build
+cmake -G Ninja <path-to-source> -DCMAKE_BUILD_TYPE=Release
+cmake --build .
+```
+
+ref:
+1. https://www.msys2.org/docs/cmake/
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
@@ -378,6 +417,13 @@ int main()
 #include <unistd.h>
 #elif _WIN32
 #include <windows.h>
+// fix windows min, max macro
+#ifdef max
+#undef max
+#endif
+#ifdef min
+#undef min
+#endif
 #endif
 ```
 
