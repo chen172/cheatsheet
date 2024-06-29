@@ -2,6 +2,7 @@
 ## Windows
 ```
 set HTTP_PROXY=http://user:password@127.0.0.1:10809 or set HTTP_PROXY=http://127.0.0.1:10809
+set HTTPS_PROXY=http://user:password@127.0.0.1:10809 or set HTTPS_PROXY=http://127.0.0.1:10809
 ```
 
 ## python pip
