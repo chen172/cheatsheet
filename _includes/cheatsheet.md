@@ -454,3 +454,8 @@ ref:
 
 ## build, test and debug regex
 1. <https://regex101.com/>
+
+## Download pdf and book
+1. find doi link by <https://www.researchgate.net>
+2. download pdf by <https://sci-hub.usualwant.com/>
+3. download book by <https://libgen.rs>
