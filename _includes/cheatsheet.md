@@ -403,6 +403,9 @@ int main()
 }
 ```
 
+ref:
+1. https://stackoverflow.com/questions/8696653/dynamically-load-a-function-from-a-dll
+
 ## call python in C++
 ```c++
 #include "Python.h"
