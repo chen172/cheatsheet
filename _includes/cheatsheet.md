@@ -326,6 +326,9 @@ cmake --build .
 ref:
 1. https://www.msys2.org/docs/cmake/
 
+## Linux copy all deps to a directory
+`ldd exe | grep "c/vcpkg" | awk '{print $3}' | xargs cp -t ./package`
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
@@ -430,6 +433,16 @@ int main()
 
 ref:
 1. https://dev.to/tenry/predefined-c-c-macros-43id
+
+## Cross-platform development
+```c
+#if defined(__linux__)
+        sleep(dt);
+#elif _WIN32
+        Sleep(dt*1000);
+#endif
+```
+<https://github.com/win32ports>
 
 # Useful link
 ## music link
