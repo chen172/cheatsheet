@@ -249,7 +249,12 @@ upower -i /org/freedesktop/UPower/devices/battery_BAT0
 2. sudo ufw allow 22
 3. sudo ufw enable
 4. sudo ufw status
+5. sudo ufw allow to 192.168.1.0/24
+6. sudo ufw allow from 192.168.1.0/24 to any port 22
 ```
+
+ref:
+1. <https://serverfault.com/questions/74023/ufw-on-ubuntu-to-allow-all-traffic-on-lan>
 
 ## Linux get all files size of directory
 ```
