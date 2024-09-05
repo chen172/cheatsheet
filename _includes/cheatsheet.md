@@ -340,6 +340,15 @@ ref:
 ## Linux display memory usage
 `free -m`
 
+## Fix Python UnicodeEncodeError: 'gbk' codec can't encode character
+`str.encode('utf-8').decode('gbk')`(first convert string to byte string(utf-8), then convert back to string(gbk))
+
+## Curl download multiple files
+`curl -O https://example.com/file[1-10].png`
+
+ref:
+1. https://unix.stackexchange.com/questions/243134/curl-download-multiple-files-with-brace-syntax
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
