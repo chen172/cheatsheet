@@ -350,7 +350,7 @@ ref:
 1. https://unix.stackexchange.com/questions/243134/curl-download-multiple-files-with-brace-syntax
 
 ## Download youtube video
-`.\yt-dlp.exe -v --write-auto-subs https://www.youtube.com/watch?v=AsygBRaRnUA`
+`.\yt-dlp.exe -v --write-auto-subs --sub-langs en -I 12:14 https://www.youtube.com/watch?v=AsygBRaRnUA`
 
 ref:
 1. https://github.com/yt-dlp/yt-dlp
