@@ -351,6 +351,7 @@ ref:
 
 ## Download youtube video
 `.\yt-dlp.exe -v --write-auto-subs --sub-langs en -I 12:14 https://www.youtube.com/watch?v=AsygBRaRnUA`
+`-S "res:1080"`
 
 ref:
 1. https://github.com/yt-dlp/yt-dlp
