@@ -358,6 +358,7 @@ ref:
 ref:
 1. https://github.com/yt-dlp/yt-dlp
 
+## VLC subtitle shortcuts
 1. H (if dialogue comes later) to delay the subtitles by 50 ms
 2. G (if dialogue comes first) to forward the subtitles by 50 ms
 
