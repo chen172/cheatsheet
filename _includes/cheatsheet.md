@@ -358,6 +358,14 @@ ref:
 ref:
 1. https://github.com/yt-dlp/yt-dlp
 
+1. H (if dialogue comes later) to delay the subtitles by 50 ms
+2. G (if dialogue comes first) to forward the subtitles by 50 ms
+
+## VLC forwarding shortcuts
+1. Shift + Right arrow: Forward by 3 seconds
+2. Alt + Right arrow: Forward by 10 seconds
+3. Ctrl + Right arrow: Forward by a minute
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
