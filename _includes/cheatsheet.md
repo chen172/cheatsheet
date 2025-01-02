@@ -367,6 +367,9 @@ ref:
 2. Alt + Right arrow: Forward by 10 seconds
 3. Ctrl + Right arrow: Forward by a minute
 
+# Run pip in ComfyUI
+`python -m pip list`
+
 # Useful code
 ## convert from `int` to the `string` in C++
 ```c++
