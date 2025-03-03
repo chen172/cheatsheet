@@ -1,8 +1,8 @@
 # 1. Proxy setting
 ## Windows
 ```
-set HTTP_PROXY=http://user:password@127.0.0.1:10809 or set HTTP_PROXY=http://127.0.0.1:10809
-set HTTPS_PROXY=http://user:password@127.0.0.1:10809 or set HTTPS_PROXY=http://127.0.0.1:10809
+set HTTP_PROXY=http://user:password@127.0.0.1:10809 or set HTTP_PROXY=http://127.0.0.1:10808
+set HTTPS_PROXY=http://user:password@127.0.0.1:10809 or set HTTPS_PROXY=http://127.0.0.1:10808
 ```
 
 ## python pip
@@ -218,6 +218,11 @@ echo $Env:PATH
 
 ref:
 1. <https://superuser.com/questions/341192/how-can-i-display-the-contents-of-an-environment-variable-from-the-command-promp>
+
+## Windows terminal process multiple files
+```
+for %i in (*.txt.html) do echo "%~i"
+```
 
 ## Check Disk Space in Linux
 ```
