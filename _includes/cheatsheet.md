@@ -224,6 +224,12 @@ ref:
 for %i in (*.txt.html) do echo "%~i"
 ```
 
+## Windows text to speech
+```
+echo 'Welcome to the world of speech synthesis!' | .\piper.exe --model en_US-hfc_female-medium.onnx --output_file welcome
+.wav
+```
+
 ## Check Disk Space in Linux
 ```
 df -h
