@@ -382,6 +382,12 @@ ref:
 2. Alt + Right arrow: Forward by 10 seconds
 3. Ctrl + Right arrow: Forward by a minute
 
+## VLC snapshot name
+name-time code of the video: `$N-$T-`
+
+ref:
+1. https://wiki.videolan.org/Documentation:Format_String/
+
 # Run pip in ComfyUI
 `python -m pip list`
 
