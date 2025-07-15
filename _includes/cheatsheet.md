@@ -388,6 +388,32 @@ name-time code of the video: `$N-$T-`
 ref:
 1. https://wiki.videolan.org/Documentation:Format_String/
 
+
+## Windows install android apk
+1. close, open developer mode
+2. .\adb.exe kill-server
+3. .\adb.exe connect 127.0.0.1:58526
+4. .\adb.exe install "path\to\name.apk"
+
+## WSA proxy
+### method 1
+1. v2rayN use `Tun`
+### method 2
+1. .\adb.exe shell settings put global http_proxy 192.168.2.102:10808
+2. .\adb.exe shell settings put global http_proxy :0
+
+## Linx find a file whose name contains "Victoria" in a directory and its subdirectories
+`find /path/to/directory -type f -name "*Victoria*"`
+
+## Select text from a specific point to the end of the file
+### Windows/Linux:
+Press Ctrl + Shift + End
+This will select the text from your current cursor position to the end of the file.
+
+### macOS:
+Press Cmd + Shift + Down Arrow
+This will also select the text from the current cursor position to the end of the file.
+
 # Run pip in ComfyUI
 `python -m pip list`
 
