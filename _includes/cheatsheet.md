@@ -414,6 +414,9 @@ This will select the text from your current cursor position to the end of the fi
 Press Cmd + Shift + Down Arrow
 This will also select the text from the current cursor position to the end of the file.
 
+## pandoc convert epub to txt
+`pandoc input.epub -t plain -o output.txt`
+
 # Run pip in ComfyUI
 `python -m pip list`
 
