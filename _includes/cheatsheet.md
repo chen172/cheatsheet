@@ -16,16 +16,6 @@ go env -w GOPROXY=https://goproxy.cn
 
 *Note: If Makefile set GOPROXY by ```export GOPROXY ?= https://proxy.golang.org```, Be sure comment it.*
 
-## conda download
-```
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-conda config --set show_channel_urls yes
-```
-
 ## npm download
 ```
 npm config get registry
@@ -37,9 +27,6 @@ npm config set registry https://registry.npmjs.org (Note: used for set back)
 ```
 git config --global https.proxy "https://127.0.0.1:10808"
 ```
-
-## download video
-<https://bilibili.iiilab.com/>
 
 # 2. Useful command 
 ## Change suffix
