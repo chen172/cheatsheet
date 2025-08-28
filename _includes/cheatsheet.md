@@ -368,6 +368,7 @@ ref:
 1. Shift + Right arrow: Forward by 3 seconds
 2. Alt + Right arrow: Forward by 10 seconds
 3. Ctrl + Right arrow: Forward by a minute
+4. E: Forward by frame
 
 ## VLC snapshot name
 name-time code of the video: `$N-$T-`
@@ -388,6 +389,12 @@ ref:
 ### method 2
 1. .\adb.exe shell settings put global http_proxy 192.168.2.102:10808
 2. .\adb.exe shell settings put global http_proxy :0
+
+# cargo build path too long
+` git config --global core.longpaths true`
+
+ref:
+1. https://github.com/rust-lang/cargo/issues/13020
 
 ## Linx find a file whose name contains "Victoria" in a directory and its subdirectories
 `find /path/to/directory -type f -name "*Victoria*"`
