@@ -376,6 +376,8 @@ name-time code of the video: `$N-$T-`
 ref:
 1. https://wiki.videolan.org/Documentation:Format_String/
 
+## Windows BIOS
+1. Press Win + R & enter msinfo32
 
 ## Windows install android apk
 1. close, open developer mode
