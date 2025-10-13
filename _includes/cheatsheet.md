@@ -221,6 +221,12 @@ echo 'Welcome to the world of speech synthesis!' | .\piper.exe --model en_US-hfc
 1. `ffmpeg -i input.mp3 -ar 16000 -ac 1 -c:a pcm_s16le output.wav`
 2. `.\main.exe .\output.wav -m .\models\ggml-model-whisper-base.en.bin`
 
+## FFmpeg crop black border
+```
+ffmpeg -i input_video.mp4 -vf cropdetect=24:16:0 -t 10 -f null -
+ffmpeg -i input_video.mp4 -vf "crop=1800:1080:60:0" -c:a copy output_video.mp4
+```
+
 ## Check Disk Space in Linux
 ```
 df -h
