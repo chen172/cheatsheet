@@ -236,6 +236,16 @@ ffmpeg -i input_video.mp4 -vf "crop=1800:1080:60:0" -c:a copy output_video.mp4
 ffmpeg -i input.opus -ss 08:18:21 -to 08:46:53 -c copy output.opus
 ```
 
+## FFmpeg concat audio
+```
+ffmpeg -i "concat:input1.opus|input2.opus" -c copy output.opus
+```
+
+## FFmpeg change sample rate
+```
+ffmpeg -i "input.mp3" -ar 44100 "output.mp3"
+```
+
 ## Check Disk Space in Linux
 ```
 df -h
