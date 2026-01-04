@@ -246,6 +246,13 @@ ffmpeg -i "concat:input1.opus|input2.opus" -c copy output.opus
 ffmpeg -i "input.mp3" -ar 44100 "output.mp3"
 ```
 
+## Hide the YouTube bar in fullscreen
+press twice `Windows`
+
+
+## Screenshots
+`Windows + Print Screen (PrtScn)`: Instantly captures your entire screen
+
 ## Check Disk Space in Linux
 ```
 df -h
