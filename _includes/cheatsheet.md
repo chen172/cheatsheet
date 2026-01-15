@@ -249,9 +249,14 @@ ffmpeg -i "input.mp3" -ar 44100 "output.mp3"
 ## Hide the YouTube bar in fullscreen
 press twice `Windows`
 
-
 ## Screenshots
 `Windows + Print Screen (PrtScn)`: Instantly captures your entire screen
+
+## qpdf cut and rearrange the PDF
+`qpdf --empty --pages input.pdf 70,2-5 -- output.pdf`
+
+## qpdf combine pdf
+`qpdf --empty --pages file1.pdf file2.pdf -- output.pdf`
 
 ## Check Disk Space in Linux
 ```
