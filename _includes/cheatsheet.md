@@ -392,7 +392,7 @@ ref:
 1. `.\yt-dlp.exe -v --write-auto-subs --sub-langs en -I 12:14 https://www.youtube.com/watch?v=AsygBRaRnUA`
 2. max quality: `-S "res:1080"`
 3. only audio: `-x`
-
+4. only subtitle: `--skip-download --write-subs --sub-lang en`
 
 ref:
 1. https://github.com/yt-dlp/yt-dlp
