@@ -132,6 +132,15 @@ dumpbin /headers nm.dll
 
 Note: If not display symbols, the lib may not export symbols when creating.
 
+## windows find PowerShell history
+```
+# Find the PSReadLine history file
+$historyFile = (Get-PSReadLineOption).HistorySavePath
+
+# Search for commands containing "llama"
+Select-String -Path $historyFile -Pattern "llama"
+```
+
 ## Linux check OpenCV version
 ```
 pkg-config opencv4 --modversion
