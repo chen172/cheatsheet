@@ -255,6 +255,21 @@ ffmpeg -i "concat:input1.opus|input2.opus" -c copy output.opus
 ffmpeg -i "input.mp3" -ar 44100 "output.mp3"
 ```
 
+## FFpmeg strip the audio and extract only the video stream
+```
+ffmpeg -i input.webm -c:v copy -an output.webm
+```
+
+## FFmpeg add an audio file to a silent video, Add the `-shortest` flag so the video doesn't get stuck on a black screen if the audio is longer than the video clip
+```
+ffmpeg -i input.webm -i audio.mp3 -c:v copy -c:a libopus -map 0:v:0 -map 1:a:0 -shortest output.webm
+```
+
+## FFmpeg convert webm to mp4
+```
+ffmpeg -i input.webm -c:v libx264 -crf 22 -preset medium -c:a aac -pix_fmt yuv420p output.mp4
+```
+
 ## Hide the YouTube bar in fullscreen
 press twice `Windows`
 
@@ -398,7 +413,7 @@ ref:
 1. https://unix.stackexchange.com/questions/243134/curl-download-multiple-files-with-brace-syntax
 
 ## Download youtube video
-1. `.\yt-dlp.exe -v --write-auto-subs --sub-langs en -I 12:14 https://www.youtube.com/watch?v=AsygBRaRnUA`
+1. `.\yt-dlp.exe -v --write-subs --sub-langs "en" -I 12:14 https://www.youtube.com/watch?v=AsygBRaRnUA`
 2. max quality: `-S "res:1080"`
 3. only audio: `-x`
 4. only subtitle: `--skip-download --write-subs --sub-lang en`
