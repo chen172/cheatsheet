@@ -270,6 +270,17 @@ ffmpeg -i input.webm -i audio.mp3 -c:v copy -c:a libopus -map 0:v:0 -map 1:a:0 -
 ffmpeg -i input.webm -c:v libx264 -crf 22 -preset medium -c:a aac -pix_fmt yuv420p output.mp4
 ```
 
+## FFmpeg get chapters from m4b
+`ffprobe -i input_audiobook.m4b -print_format json -show_chapters > chapters.json`
+
+# Windows FFmpeg convert .opus in a dir to mp3
+`for %i in (*.opus) do ffmpeg -i "%i" "%~ni.mp3"`
+
+# Windows FFmpeg add metadata in mp3 in dir
+```
+for %f in (*.mp3) do ffmpeg -i "%f" -metadata album="Two Systems" -c copy "temp_%~nf.mp3" & move /Y "temp_%~nf.mp3" "%f"
+```
+
 ## Hide the YouTube bar in fullscreen
 press twice `Windows`
 
